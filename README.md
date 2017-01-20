@@ -27,7 +27,7 @@ More detailed official docs for C/C++ in VS Code is here: https://code.visualstu
 
 ## TODO
 
-[ ] Cross-platform, current config is for Windows only
-[ ] Set up a trivial package test run by `conan test_package`
-[ ] Set up a trivial unit tests that get run on `conan build`
-[ ] Find an easy way to do configure a "clean" function
+- [ ] Cross-platform, current config is for Windows only
+- [ ] Set up a trivial package test run by `conan test_package`
+- [ ] Set up a trivial unit tests that get run on `conan build`
+- [ ] Find an easy way to do configure a "clean" function
