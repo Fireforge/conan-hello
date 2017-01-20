@@ -6,14 +6,19 @@ This is test package to see how simply I could set up Conan, CMake, and Visual S
 ## One-time Setup
 
 Build dependencies:
-- Install Python 3.5 or later
+- Install Python (3.5 or later)
 - Install CMake
+- Install the build tool:  
+    - **Windows:** Visual C++ Build Tools (http://landinghub.visualstudio.com/visual-cpp-build-tools)  
+      *Note: If you already have Visual Studio installed, you can skip this step. Also, when installing Visual C++ Build Tools, you may need to include the optional Windows SDK. I needed it to build on Windows 10.*
 - `pip install conan`
 
 ## Build Default Configuration
 
 A single command builds it:
-`conan build`
+```
+conan build
+```
 
 Outputs go into the `exports` folder.
 
